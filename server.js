@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
-import config from './config/index.js'
-import app from './app.js'
+import config from './src/config/index.js'
+import app from './src/app.js'
 
 async function databaseConnection() {
   try {
