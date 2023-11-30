@@ -7,10 +7,7 @@ import httpStatus from 'http-status'
 
 const app = express()
 
-app.use(cors({
-  origin:'https://task-management-mikatsyed.vercel.app',
-  credentials:true
-}))
+app.use(cors())
 
 
 //parser
